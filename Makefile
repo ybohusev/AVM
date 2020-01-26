@@ -15,7 +15,7 @@
 NAME = AVM
 
 CC = clang++
-FLAGS = -Wall -Werror -Wextra -std=c++11
+FLAGS = -std=c++11  #-Wall -Werror -Wextra
 
 DIR_S = src
 DIR_C = $(DIR_S)/Commands
@@ -25,8 +25,9 @@ DIR_H = headers
 SOURCES =
 
 SOURCES += main.cpp
-SOURCES += Parser.cpp
+#SOURCES += Parser.cpp
 SOURCES += OFactory.cpp
+SOURCES += Lexer.cpp
 SOURCES_C += Sub.cpp
 SOURCES_C += Push.cpp
 SOURCES_C += Print.cpp

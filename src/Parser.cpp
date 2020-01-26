@@ -60,27 +60,32 @@ void Parser::initCommands()
 	nameCommands.push_back("exit");
 }
 
-void Parser::doCommand(std::vector<IOperand const *> *v, std::string line)
+void Parser::pushComToStack(std::vector<Commands> &stackCommands, std::string line)
 {
 	std::stringstream ss(line);
 	std::string aux;
 	size_t i;
 	std::getline(ss, aux, ' ');
-    //std::cout << aux << std::endl;
-    if (aux[0] != ';')
-	{
+
+
+
+	line = line.substr(0, line.find_first_of(';'));
+	//line = line.substr(0, line.find_first_of(' '));
+    //std::cout << line << std::endl;
+    if (line.size())
+	{std::cout << line << std::endl;
 		for (i = 0; i < commands.size(); i++)
 		{
 			if (aux == nameCommands.at(i))
 			{
-				commands.at(i)->doCommands(v, line);
+				//commands.at(i)->doCommands(v, line);
 				break ;
 			}
 			else if (aux == "exit")
 				std::exit(0);
 		}
-		if (i == commands.size())
-			throw WrongCommandException();
+		if (i == commands.size());
+			//throw WrongCommandException();
 	}
 }
 
@@ -93,23 +98,23 @@ void Parser::checkExit(std::string const &line)
 		throw NoExitException();
 }
 
-void Parser::readFromFile(std::string const &filename)
+void Parser::readFromFile(std::string const &filename, std::vector<Commands> &stackCommands)
 {
 	std::string line;
 	std::ifstream fin(filename);
-	std::ifstream fin1(filename);
-	std::vector<IOperand const *> v;
 
-	if (!fin.is_open() && !fin1.is_open())
+
+    std::ifstream fin1(std::cin);
+	//std::ifstream fin1(filename);
+	//std::vector<IOperand const *> v;
+	if (!fin.is_open())
 	{
 		throw FileOpenException();
 	}
 	else
 	{
-		std::getline(fin1, line, '\0');
-		checkExit(line);
 		while (std::getline(fin, line))
-			doCommand(&v, line);
+            pushComToStack(stackCommands, line);
 	}
 }
 
@@ -124,8 +129,8 @@ void Parser::readUserInput()
 		userInput += line + "\n";
 	checkExit(userInput);
 	std::stringstream ss(userInput);
-	while(std::getline(ss, to, '\n'))
-		doCommand(&v, to);
+	while(std::getline(ss, to, '\n'));
+        //pushComToStack(&v, to);
 
 }
 

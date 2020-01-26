@@ -11,17 +11,21 @@
 /* ************************************************************************** */
 
 #include "Parser.hpp"
+#include "Lexer.hpp"
+#include "Commands/Commands.hpp"
 
 int	main(int ac, char **av)
 {
-	Parser par;
+    Lexer   lex;
+	//Parser  par;
+	std::vector<std::string> stringCommands;
 
 	try
 	{
 		if (ac == 1)
-			par.readUserInput();
+			stringCommands = lex.readUserInput();
 		else if (ac == 2)
-			par.readFromFile(av[1]);
+            stringCommands = lex.readFromFile(av[1]);
 		else
 			std::cout << "Enter ONE file name or without parameters !\n";
 	}
@@ -29,6 +33,14 @@ int	main(int ac, char **av)
 	{
 		std::cerr << e.what() << std::endl;
 	}
+    catch(Lexer::FileOpenException &e)
+    {
+        std::cerr << "File can't be opened! -> "  << e.what() << std::endl;
+    }
+    catch(Lexer::WrongCommandException &e)
+    {
+        std::cerr << "Unknown command -> "  << e.what() << std::endl;
+    }
 	catch (std::exception &e)
 	{
 		std::cout << e.what() << std::endl;

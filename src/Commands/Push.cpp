@@ -32,6 +32,11 @@ Push::~Push()
 {
 }
 
+Push::Push(std::string param)
+{
+
+}
+
 void Push::doCommands(std::vector<IOperand const *> *v, std::string line)
 {
 	OFactory fact;

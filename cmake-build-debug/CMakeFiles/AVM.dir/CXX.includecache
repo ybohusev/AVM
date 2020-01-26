@@ -60,6 +60,16 @@ Commands.hpp
 iostream
 -
 
+../headers/Lexer.hpp
+iostream
+-
+sstream
+-
+vector
+-
+fstream
+-
+
 ../headers/OFactory.hpp
 IOperand.hpp
 ../headers/IOperand.hpp
@@ -112,165 +122,131 @@ IOperand.hpp
 OFactory.hpp
 ../headers/OFactory.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Add.hpp
+/Users/ybohusev/abstarct/headers/Commands/Add.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Assert.hpp
+/Users/ybohusev/abstarct/headers/Commands/Assert.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 ../IOperand.hpp
-/Users/ybohusev/AVM/headers/IOperand.hpp
+/Users/ybohusev/abstarct/headers/IOperand.hpp
 ../OFactory.hpp
-/Users/ybohusev/AVM/headers/OFactory.hpp
+/Users/ybohusev/abstarct/headers/OFactory.hpp
 vector
 -
 sstream
 -
 
-/Users/ybohusev/AVM/headers/Commands/Div.hpp
+/Users/ybohusev/abstarct/headers/Commands/Div.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Dump.hpp
+/Users/ybohusev/abstarct/headers/Commands/Dump.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Mod.hpp
+/Users/ybohusev/abstarct/headers/Commands/Mod.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Mul.hpp
+/Users/ybohusev/abstarct/headers/Commands/Mul.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Pop.hpp
+/Users/ybohusev/abstarct/headers/Commands/Pop.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Print.hpp
+/Users/ybohusev/abstarct/headers/Commands/Print.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Push.hpp
+/Users/ybohusev/abstarct/headers/Commands/Push.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/Commands/Sub.hpp
+/Users/ybohusev/abstarct/headers/Commands/Sub.hpp
 Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/headers/IOperand.hpp
+/Users/ybohusev/abstarct/headers/IOperand.hpp
 iostream
 -
 
-/Users/ybohusev/AVM/headers/OFactory.hpp
+/Users/ybohusev/abstarct/headers/OFactory.hpp
 IOperand.hpp
-/Users/ybohusev/AVM/headers/IOperand.hpp
+/Users/ybohusev/abstarct/headers/IOperand.hpp
 TOperands.hpp
-/Users/ybohusev/AVM/headers/TOperands.hpp
+/Users/ybohusev/abstarct/headers/TOperands.hpp
 limits
 -
 cfloat
 -
 
-/Users/ybohusev/AVM/headers/Parser.hpp
-iostream
--
-sstream
--
-vector
--
-fstream
--
-Commands/Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
-../headers/Commands/Push.hpp
-/Users/ybohusev/AVM/headers/Commands/Push.hpp
-../headers/Commands/Pop.hpp
-/Users/ybohusev/AVM/headers/Commands/Pop.hpp
-../headers/Commands/Dump.hpp
-/Users/ybohusev/AVM/headers/Commands/Dump.hpp
-../headers/Commands/Assert.hpp
-/Users/ybohusev/AVM/headers/Commands/Assert.hpp
-../headers/Commands/Add.hpp
-/Users/ybohusev/AVM/headers/Commands/Add.hpp
-../headers/Commands/Sub.hpp
-/Users/ybohusev/AVM/headers/Commands/Sub.hpp
-../headers/Commands/Mul.hpp
-/Users/ybohusev/AVM/headers/Commands/Mul.hpp
-../headers/Commands/Div.hpp
-/Users/ybohusev/AVM/headers/Commands/Div.hpp
-../headers/Commands/Mod.hpp
-/Users/ybohusev/AVM/headers/Commands/Mod.hpp
-../headers/Commands/Print.hpp
-/Users/ybohusev/AVM/headers/Commands/Print.hpp
-
-/Users/ybohusev/AVM/headers/TOperands.hpp
+/Users/ybohusev/abstarct/headers/TOperands.hpp
 cmath
 -
 iomanip
 -
 IOperand.hpp
-/Users/ybohusev/AVM/headers/IOperand.hpp
+/Users/ybohusev/abstarct/headers/IOperand.hpp
 OFactory.hpp
-/Users/ybohusev/AVM/headers/OFactory.hpp
+/Users/ybohusev/abstarct/headers/OFactory.hpp
 
-/Users/ybohusev/AVM/src/Commands/Add.cpp
+/Users/ybohusev/abstarct/src/Commands/Add.cpp
 ../../headers/Commands/Add.hpp
-/Users/ybohusev/AVM/headers/Commands/Add.hpp
+/Users/ybohusev/abstarct/headers/Commands/Add.hpp
 
-/Users/ybohusev/AVM/src/Commands/Assert.cpp
+/Users/ybohusev/abstarct/src/Commands/Assert.cpp
 ../../headers/Commands/Assert.hpp
-/Users/ybohusev/AVM/headers/Commands/Assert.hpp
+/Users/ybohusev/abstarct/headers/Commands/Assert.hpp
 
-/Users/ybohusev/AVM/src/Commands/Commands.cpp
+/Users/ybohusev/abstarct/src/Commands/Commands.cpp
 ../../headers/Commands/Commands.hpp
-/Users/ybohusev/AVM/headers/Commands/Commands.hpp
+/Users/ybohusev/abstarct/headers/Commands/Commands.hpp
 
-/Users/ybohusev/AVM/src/Commands/Div.cpp
+/Users/ybohusev/abstarct/src/Commands/Div.cpp
 ../../headers/Commands/Div.hpp
-/Users/ybohusev/AVM/headers/Commands/Div.hpp
+/Users/ybohusev/abstarct/headers/Commands/Div.hpp
 
-/Users/ybohusev/AVM/src/Commands/Dump.cpp
+/Users/ybohusev/abstarct/src/Commands/Dump.cpp
 ../../headers/Commands/Dump.hpp
-/Users/ybohusev/AVM/headers/Commands/Dump.hpp
+/Users/ybohusev/abstarct/headers/Commands/Dump.hpp
 
-/Users/ybohusev/AVM/src/Commands/Mod.cpp
+/Users/ybohusev/abstarct/src/Commands/Mod.cpp
 ../../headers/Commands/Mod.hpp
-/Users/ybohusev/AVM/headers/Commands/Mod.hpp
+/Users/ybohusev/abstarct/headers/Commands/Mod.hpp
 
-/Users/ybohusev/AVM/src/Commands/Mul.cpp
+/Users/ybohusev/abstarct/src/Commands/Mul.cpp
 ../../headers/Commands/Mul.hpp
-/Users/ybohusev/AVM/headers/Commands/Mul.hpp
+/Users/ybohusev/abstarct/headers/Commands/Mul.hpp
 
-/Users/ybohusev/AVM/src/Commands/Pop.cpp
+/Users/ybohusev/abstarct/src/Commands/Pop.cpp
 ../../headers/Commands/Pop.hpp
-/Users/ybohusev/AVM/headers/Commands/Pop.hpp
+/Users/ybohusev/abstarct/headers/Commands/Pop.hpp
 
-/Users/ybohusev/AVM/src/Commands/Print.cpp
+/Users/ybohusev/abstarct/src/Commands/Print.cpp
 ../../headers/Commands/Print.hpp
-/Users/ybohusev/AVM/headers/Commands/Print.hpp
+/Users/ybohusev/abstarct/headers/Commands/Print.hpp
 
-/Users/ybohusev/AVM/src/Commands/Push.cpp
+/Users/ybohusev/abstarct/src/Commands/Push.cpp
 ../../headers/Commands/Push.hpp
-/Users/ybohusev/AVM/headers/Commands/Push.hpp
+/Users/ybohusev/abstarct/headers/Commands/Push.hpp
 
-/Users/ybohusev/AVM/src/Commands/Sub.cpp
+/Users/ybohusev/abstarct/src/Commands/Sub.cpp
 ../../headers/Commands/Sub.hpp
-/Users/ybohusev/AVM/headers/Commands/Sub.hpp
+/Users/ybohusev/abstarct/headers/Commands/Sub.hpp
 
-/Users/ybohusev/AVM/src/OFactory.cpp
-../headers/OFactory.hpp
-/Users/ybohusev/AVM/headers/OFactory.hpp
+/Users/ybohusev/abstarct/src/Lexer.cpp
 
-/Users/ybohusev/AVM/src/Parser.cpp
-../headers/Parser.hpp
-/Users/ybohusev/AVM/headers/Parser.hpp
-
-/Users/ybohusev/AVM/src/main.cpp
+/Users/ybohusev/abstarct/src/main.cpp
 Parser.hpp
-/Users/ybohusev/AVM/src/Parser.hpp
+/Users/ybohusev/abstarct/src/Parser.hpp
+Lexer.hpp
+/Users/ybohusev/abstarct/src/Lexer.hpp
+Commands/Commands.hpp
+/Users/ybohusev/abstarct/src/Commands/Commands.hpp
 

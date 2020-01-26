@@ -77,27 +77,12 @@ CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o: ../headers/OFactory.hpp
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o: ../headers/TOperands.hpp
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o: ../src/Commands/Sub.cpp
 
+CMakeFiles/AVM.dir/src/Lexer.cpp.o: ../src/Lexer.cpp
+
 CMakeFiles/AVM.dir/src/OFactory.cpp.o: ../headers/IOperand.hpp
 CMakeFiles/AVM.dir/src/OFactory.cpp.o: ../headers/OFactory.hpp
 CMakeFiles/AVM.dir/src/OFactory.cpp.o: ../headers/TOperands.hpp
 CMakeFiles/AVM.dir/src/OFactory.cpp.o: ../src/OFactory.cpp
-
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Add.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Assert.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Commands.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Div.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Dump.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Mod.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Mul.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Pop.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Print.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Push.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Commands/Sub.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/IOperand.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/OFactory.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/Parser.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../headers/TOperands.hpp
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../src/Parser.cpp
 
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Commands/Add.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Commands/Assert.hpp
@@ -111,6 +96,7 @@ CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Commands/Print.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Commands/Push.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Commands/Sub.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/IOperand.hpp
+CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Lexer.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/OFactory.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/Parser.hpp
 CMakeFiles/AVM.dir/src/main.cpp.o: ../headers/TOperands.hpp

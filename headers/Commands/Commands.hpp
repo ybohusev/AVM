@@ -25,6 +25,7 @@ public:
 	std::vector<std::string> nameType;
 
 	Commands();
+    Commands(std::string param);
 	void initNameType();
 	virtual ~Commands();
 	virtual void doCommands(std::vector<IOperand const *> *v, std::string line) = 0;

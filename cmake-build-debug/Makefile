@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ybohusev/AVM
+CMAKE_SOURCE_DIR = /Users/ybohusev/abstarct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ybohusev/AVM/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ybohusev/abstarct/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ybohusev/AVM/cmake-build-debug/CMakeFiles /Users/ybohusev/AVM/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles /Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ybohusev/AVM/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -420,6 +420,33 @@ src/Commands/Sub.cpp.s:
 	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Commands/Sub.cpp.s
 .PHONY : src/Commands/Sub.cpp.s
 
+src/Lexer.o: src/Lexer.cpp.o
+
+.PHONY : src/Lexer.o
+
+# target to build an object file
+src/Lexer.cpp.o:
+	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Lexer.cpp.o
+.PHONY : src/Lexer.cpp.o
+
+src/Lexer.i: src/Lexer.cpp.i
+
+.PHONY : src/Lexer.i
+
+# target to preprocess a source file
+src/Lexer.cpp.i:
+	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Lexer.cpp.i
+.PHONY : src/Lexer.cpp.i
+
+src/Lexer.s: src/Lexer.cpp.s
+
+.PHONY : src/Lexer.s
+
+# target to generate assembly for a file
+src/Lexer.cpp.s:
+	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Lexer.cpp.s
+.PHONY : src/Lexer.cpp.s
+
 src/OFactory.o: src/OFactory.cpp.o
 
 .PHONY : src/OFactory.o
@@ -446,33 +473,6 @@ src/OFactory.s: src/OFactory.cpp.s
 src/OFactory.cpp.s:
 	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/OFactory.cpp.s
 .PHONY : src/OFactory.cpp.s
-
-src/Parser.o: src/Parser.cpp.o
-
-.PHONY : src/Parser.o
-
-# target to build an object file
-src/Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Parser.cpp.o
-.PHONY : src/Parser.cpp.o
-
-src/Parser.i: src/Parser.cpp.i
-
-.PHONY : src/Parser.i
-
-# target to preprocess a source file
-src/Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Parser.cpp.i
-.PHONY : src/Parser.cpp.i
-
-src/Parser.s: src/Parser.cpp.s
-
-.PHONY : src/Parser.s
-
-# target to generate assembly for a file
-src/Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/AVM.dir/build.make CMakeFiles/AVM.dir/src/Parser.cpp.s
-.PHONY : src/Parser.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -543,12 +543,12 @@ help:
 	@echo "... src/Commands/Sub.o"
 	@echo "... src/Commands/Sub.i"
 	@echo "... src/Commands/Sub.s"
+	@echo "... src/Lexer.o"
+	@echo "... src/Lexer.i"
+	@echo "... src/Lexer.s"
 	@echo "... src/OFactory.o"
 	@echo "... src/OFactory.i"
 	@echo "... src/OFactory.s"
-	@echo "... src/Parser.o"
-	@echo "... src/Parser.i"
-	@echo "... src/Parser.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

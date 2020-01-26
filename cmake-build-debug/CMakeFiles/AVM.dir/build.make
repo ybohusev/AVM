@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ybohusev/AVM
+CMAKE_SOURCE_DIR = /Users/ybohusev/abstarct
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ybohusev/AVM/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/ybohusev/abstarct/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/AVM.dir/depend.make
@@ -59,185 +59,185 @@ include CMakeFiles/AVM.dir/flags.make
 
 CMakeFiles/AVM.dir/src/Commands/Add.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Add.cpp.o: ../src/Commands/Add.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Add.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Add.cpp.o -c /Users/ybohusev/AVM/src/Commands/Add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Add.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Add.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Add.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Add.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Add.cpp > CMakeFiles/AVM.dir/src/Commands/Add.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Add.cpp > CMakeFiles/AVM.dir/src/Commands/Add.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Add.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Add.cpp -o CMakeFiles/AVM.dir/src/Commands/Add.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Add.cpp -o CMakeFiles/AVM.dir/src/Commands/Add.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o: ../src/Commands/Assert.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o -c /Users/ybohusev/AVM/src/Commands/Assert.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Assert.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Assert.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Assert.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Assert.cpp > CMakeFiles/AVM.dir/src/Commands/Assert.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Assert.cpp > CMakeFiles/AVM.dir/src/Commands/Assert.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Assert.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Assert.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Assert.cpp -o CMakeFiles/AVM.dir/src/Commands/Assert.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Assert.cpp -o CMakeFiles/AVM.dir/src/Commands/Assert.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o: ../src/Commands/Commands.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o -c /Users/ybohusev/AVM/src/Commands/Commands.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Commands.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Commands.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Commands.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Commands.cpp > CMakeFiles/AVM.dir/src/Commands/Commands.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Commands.cpp > CMakeFiles/AVM.dir/src/Commands/Commands.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Commands.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Commands.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Commands.cpp -o CMakeFiles/AVM.dir/src/Commands/Commands.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Commands.cpp -o CMakeFiles/AVM.dir/src/Commands/Commands.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Div.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Div.cpp.o: ../src/Commands/Div.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Div.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Div.cpp.o -c /Users/ybohusev/AVM/src/Commands/Div.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Div.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Div.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Div.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Div.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Div.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Div.cpp > CMakeFiles/AVM.dir/src/Commands/Div.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Div.cpp > CMakeFiles/AVM.dir/src/Commands/Div.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Div.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Div.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Div.cpp -o CMakeFiles/AVM.dir/src/Commands/Div.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Div.cpp -o CMakeFiles/AVM.dir/src/Commands/Div.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o: ../src/Commands/Dump.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o -c /Users/ybohusev/AVM/src/Commands/Dump.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Dump.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Dump.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Dump.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Dump.cpp > CMakeFiles/AVM.dir/src/Commands/Dump.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Dump.cpp > CMakeFiles/AVM.dir/src/Commands/Dump.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Dump.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Dump.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Dump.cpp -o CMakeFiles/AVM.dir/src/Commands/Dump.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Dump.cpp -o CMakeFiles/AVM.dir/src/Commands/Dump.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o: ../src/Commands/Mod.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o -c /Users/ybohusev/AVM/src/Commands/Mod.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Mod.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Mod.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Mod.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Mod.cpp > CMakeFiles/AVM.dir/src/Commands/Mod.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Mod.cpp > CMakeFiles/AVM.dir/src/Commands/Mod.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Mod.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Mod.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Mod.cpp -o CMakeFiles/AVM.dir/src/Commands/Mod.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Mod.cpp -o CMakeFiles/AVM.dir/src/Commands/Mod.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o: ../src/Commands/Mul.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o -c /Users/ybohusev/AVM/src/Commands/Mul.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Mul.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Mul.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Mul.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Mul.cpp > CMakeFiles/AVM.dir/src/Commands/Mul.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Mul.cpp > CMakeFiles/AVM.dir/src/Commands/Mul.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Mul.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Mul.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Mul.cpp -o CMakeFiles/AVM.dir/src/Commands/Mul.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Mul.cpp -o CMakeFiles/AVM.dir/src/Commands/Mul.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o: ../src/Commands/Pop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o -c /Users/ybohusev/AVM/src/Commands/Pop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Pop.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Pop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Pop.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Pop.cpp > CMakeFiles/AVM.dir/src/Commands/Pop.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Pop.cpp > CMakeFiles/AVM.dir/src/Commands/Pop.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Pop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Pop.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Pop.cpp -o CMakeFiles/AVM.dir/src/Commands/Pop.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Pop.cpp -o CMakeFiles/AVM.dir/src/Commands/Pop.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Print.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Print.cpp.o: ../src/Commands/Print.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Print.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Print.cpp.o -c /Users/ybohusev/AVM/src/Commands/Print.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Print.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Print.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Print.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Print.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Print.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Print.cpp > CMakeFiles/AVM.dir/src/Commands/Print.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Print.cpp > CMakeFiles/AVM.dir/src/Commands/Print.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Print.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Print.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Print.cpp -o CMakeFiles/AVM.dir/src/Commands/Print.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Print.cpp -o CMakeFiles/AVM.dir/src/Commands/Print.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Push.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Push.cpp.o: ../src/Commands/Push.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Push.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Push.cpp.o -c /Users/ybohusev/AVM/src/Commands/Push.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Push.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Push.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Push.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Push.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Push.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Push.cpp > CMakeFiles/AVM.dir/src/Commands/Push.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Push.cpp > CMakeFiles/AVM.dir/src/Commands/Push.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Push.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Push.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Push.cpp -o CMakeFiles/AVM.dir/src/Commands/Push.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Push.cpp -o CMakeFiles/AVM.dir/src/Commands/Push.cpp.s
 
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o: ../src/Commands/Sub.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o -c /Users/ybohusev/AVM/src/Commands/Sub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o -c /Users/ybohusev/abstarct/src/Commands/Sub.cpp
 
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Commands/Sub.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Commands/Sub.cpp > CMakeFiles/AVM.dir/src/Commands/Sub.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Commands/Sub.cpp > CMakeFiles/AVM.dir/src/Commands/Sub.cpp.i
 
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Commands/Sub.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Commands/Sub.cpp -o CMakeFiles/AVM.dir/src/Commands/Sub.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Commands/Sub.cpp -o CMakeFiles/AVM.dir/src/Commands/Sub.cpp.s
 
 CMakeFiles/AVM.dir/src/main.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AVM.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/main.cpp.o -c /Users/ybohusev/AVM/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/AVM.dir/src/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/main.cpp.o -c /Users/ybohusev/abstarct/src/main.cpp
 
 CMakeFiles/AVM.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/main.cpp > CMakeFiles/AVM.dir/src/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/main.cpp > CMakeFiles/AVM.dir/src/main.cpp.i
 
 CMakeFiles/AVM.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/main.cpp -o CMakeFiles/AVM.dir/src/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/main.cpp -o CMakeFiles/AVM.dir/src/main.cpp.s
 
 CMakeFiles/AVM.dir/src/OFactory.cpp.o: CMakeFiles/AVM.dir/flags.make
 CMakeFiles/AVM.dir/src/OFactory.cpp.o: ../src/OFactory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/AVM.dir/src/OFactory.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/OFactory.cpp.o -c /Users/ybohusev/AVM/src/OFactory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/AVM.dir/src/OFactory.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/OFactory.cpp.o -c /Users/ybohusev/abstarct/src/OFactory.cpp
 
 CMakeFiles/AVM.dir/src/OFactory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/OFactory.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/OFactory.cpp > CMakeFiles/AVM.dir/src/OFactory.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/OFactory.cpp > CMakeFiles/AVM.dir/src/OFactory.cpp.i
 
 CMakeFiles/AVM.dir/src/OFactory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/OFactory.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/OFactory.cpp -o CMakeFiles/AVM.dir/src/OFactory.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/OFactory.cpp -o CMakeFiles/AVM.dir/src/OFactory.cpp.s
 
-CMakeFiles/AVM.dir/src/Parser.cpp.o: CMakeFiles/AVM.dir/flags.make
-CMakeFiles/AVM.dir/src/Parser.cpp.o: ../src/Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AVM.dir/src/Parser.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Parser.cpp.o -c /Users/ybohusev/AVM/src/Parser.cpp
+CMakeFiles/AVM.dir/src/Lexer.cpp.o: CMakeFiles/AVM.dir/flags.make
+CMakeFiles/AVM.dir/src/Lexer.cpp.o: ../src/Lexer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/AVM.dir/src/Lexer.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AVM.dir/src/Lexer.cpp.o -c /Users/ybohusev/abstarct/src/Lexer.cpp
 
-CMakeFiles/AVM.dir/src/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Parser.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/AVM/src/Parser.cpp > CMakeFiles/AVM.dir/src/Parser.cpp.i
+CMakeFiles/AVM.dir/src/Lexer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AVM.dir/src/Lexer.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ybohusev/abstarct/src/Lexer.cpp > CMakeFiles/AVM.dir/src/Lexer.cpp.i
 
-CMakeFiles/AVM.dir/src/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Parser.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/AVM/src/Parser.cpp -o CMakeFiles/AVM.dir/src/Parser.cpp.s
+CMakeFiles/AVM.dir/src/Lexer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AVM.dir/src/Lexer.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ybohusev/abstarct/src/Lexer.cpp -o CMakeFiles/AVM.dir/src/Lexer.cpp.s
 
 # Object files for target AVM
 AVM_OBJECTS = \
@@ -254,7 +254,7 @@ AVM_OBJECTS = \
 "CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o" \
 "CMakeFiles/AVM.dir/src/main.cpp.o" \
 "CMakeFiles/AVM.dir/src/OFactory.cpp.o" \
-"CMakeFiles/AVM.dir/src/Parser.cpp.o"
+"CMakeFiles/AVM.dir/src/Lexer.cpp.o"
 
 # External object files for target AVM
 AVM_EXTERNAL_OBJECTS =
@@ -272,10 +272,10 @@ AVM: CMakeFiles/AVM.dir/src/Commands/Push.cpp.o
 AVM: CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o
 AVM: CMakeFiles/AVM.dir/src/main.cpp.o
 AVM: CMakeFiles/AVM.dir/src/OFactory.cpp.o
-AVM: CMakeFiles/AVM.dir/src/Parser.cpp.o
+AVM: CMakeFiles/AVM.dir/src/Lexer.cpp.o
 AVM: CMakeFiles/AVM.dir/build.make
 AVM: CMakeFiles/AVM.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ybohusev/AVM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable AVM"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable AVM"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AVM.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -288,6 +288,6 @@ CMakeFiles/AVM.dir/clean:
 .PHONY : CMakeFiles/AVM.dir/clean
 
 CMakeFiles/AVM.dir/depend:
-	cd /Users/ybohusev/AVM/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ybohusev/AVM /Users/ybohusev/AVM /Users/ybohusev/AVM/cmake-build-debug /Users/ybohusev/AVM/cmake-build-debug /Users/ybohusev/AVM/cmake-build-debug/CMakeFiles/AVM.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ybohusev/abstarct/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ybohusev/abstarct /Users/ybohusev/abstarct /Users/ybohusev/abstarct/cmake-build-debug /Users/ybohusev/abstarct/cmake-build-debug /Users/ybohusev/abstarct/cmake-build-debug/CMakeFiles/AVM.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/AVM.dir/depend
 

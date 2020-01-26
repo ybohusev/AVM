@@ -20,7 +20,7 @@ add_executable(AVM
         headers/Commands/Sub.hpp
         headers/IOperand.hpp
         headers/OFactory.hpp
-        headers/Parser.hpp
+        #headers/Parser.hpp
         headers/TOperands.hpp
         src/Commands/Add.cpp
         src/Commands/Assert.cpp
@@ -35,4 +35,7 @@ add_executable(AVM
         src/Commands/Sub.cpp
         src/main.cpp
         src/OFactory.cpp
-        src/Parser.cpp)
+        #src/Parser.cpp
+        headers/Lexer.hpp
+        src/Lexer.cpp
+        headers/Commands/CommandsSet.hpp)

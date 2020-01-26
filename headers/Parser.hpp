@@ -40,10 +40,10 @@ public:
 	Parser(Parser const &obj);
 	~Parser();
 	Parser &operator=(Parser const &obj);
-	void readFromFile(std::string const &filename);
+	void readFromFile(std::string const &filename, std::vector<Commands> &stackCommands);
 	void readUserInput();
 	void initCommands();
-	void doCommand(std::vector<IOperand const *> *v, std::string line);
+	void pushComToStack(std::vector<Commands> &stackCommands, std::string line);
 	void checkExit(std::string const &filename);
 
 class FileOpenException : public std::exception
