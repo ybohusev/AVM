@@ -37,7 +37,7 @@ Lexer::~Lexer()
     std::cout << "Lexer destructor" << std::endl;
 }
 
-void Lexer::checkLex(std::string line)
+bool Lexer::checkLex(std::string line)
 {
     std::string aux;
     size_t i;
@@ -56,17 +56,20 @@ void Lexer::checkLex(std::string line)
                 errLine = line;
                 throw WrongCommandException();
             case eCommandType::PUSH:
+                commands.push_back(line);
                 break;
             case eCommandType::ASSERT:
+                commands.push_back(line);
                 break;
             case eCommandType::EXIT:
-                break;
+                return true;
             default:
+                commands.push_back(line);
                 break;
 
         };
-        //throw WrongCommandException();
     }
+    return false;
 }
 
 std::vector<std::string> Lexer::splitString(std::string com, char delim)
@@ -82,18 +85,10 @@ std::vector<std::string> Lexer::splitString(std::string com, char delim)
     return strings;
 }
 
-//void Lexer::checkExit(std::string const &line)
-//{
-//    size_t found;
-//
-//    found = line.find("exit");
-//    if (found == std::string::npos)
-//        throw NoExitException();
-//}
-
 std::vector<std::string> Lexer::readFromFile(std::string const &filename)
 {
     std::string line;
+    bool isExit = false;
     fin.open(filename);
 
     if (!fin.is_open())
@@ -103,8 +98,10 @@ std::vector<std::string> Lexer::readFromFile(std::string const &filename)
     }
     else
     {
-        while (std::getline(fin, line))
-            checkLex(line);
+        while (!isExit && std::getline(fin, line))
+            isExit = checkLex(line);
+        if (!isExit)
+            throw NoExitException();
     }
     return commands;
 }
@@ -113,7 +110,6 @@ std::vector<std::string> Lexer::readUserInput()
 {
     std::string line;
     std::string userInput;
-    //std::vector<IOperand const *> v;
     std::string to;
 
     while (std::getline(std::cin, line) && line != ";;")

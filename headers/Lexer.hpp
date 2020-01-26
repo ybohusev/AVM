@@ -35,7 +35,7 @@ public:
     std::vector<std::string> readFromFile(std::string const &filename);
     std::vector<std::string> readUserInput();
 
-    void checkLex(std::string line);
+    bool checkLex(std::string line);
 
     class FileOpenException : public std::exception
     {

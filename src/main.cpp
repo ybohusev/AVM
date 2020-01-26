@@ -29,10 +29,6 @@ int	main(int ac, char **av)
 		else
 			std::cout << "Enter ONE file name or without parameters !\n";
 	}
-	catch(std::out_of_range &e)
-	{
-		std::cerr << e.what() << std::endl;
-	}
     catch(Lexer::FileOpenException &e)
     {
         std::cerr << "File can't be opened! -> "  << e.what() << std::endl;
@@ -41,9 +37,14 @@ int	main(int ac, char **av)
     {
         std::cerr << "Unknown command -> "  << e.what() << std::endl;
     }
-	catch (std::exception &e)
-	{
-		std::cout << e.what() << std::endl;
-	}
+    catch(Lexer::NoExitException &e)
+    {
+        std::cerr << e.what() << std::endl;
+    }
+
+    for (int i = 0; i < stringCommands.size(); i++)
+    {
+        std::cout << stringCommands[i] << std::endl;
+    }
 	return 0;
 }
