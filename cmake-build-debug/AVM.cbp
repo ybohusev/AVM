@@ -8,173 +8,178 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ybohusev/abstarct/cmake-build-debug"/>
+				<Option working_dir="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ybohusev/abstarct/cmake-build-debug"/>
+				<Option working_dir="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/ybohusev/abstarct/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AVM">
-				<Option output="/Users/ybohusev/abstarct/cmake-build-debug/AVM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ybohusev/abstarct/cmake-build-debug"/>
+				<Option output="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/AVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ybohusev/abstarct/headers"/>
-					<Add directory="/Users/ybohusev/abstarct/headers/Commands"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/home/ybohusev/Programming/Unit/AVM/headers"/>
+					<Add directory="/home/ybohusev/Programming/Unit/AVM/headers/Commands"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 AVM"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 AVM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="AVM/fast">
-				<Option output="/Users/ybohusev/abstarct/cmake-build-debug/AVM" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ybohusev/abstarct/cmake-build-debug"/>
+				<Option output="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/AVM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ybohusev/abstarct/headers"/>
-					<Add directory="/Users/ybohusev/abstarct/headers/Commands"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/home/ybohusev/Programming/Unit/AVM/headers"/>
+					<Add directory="/home/ybohusev/Programming/Unit/AVM/headers/Commands"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/../../../../include/c++/9.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/9.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 AVM/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ybohusev/abstarct/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 AVM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/ybohusev/Programming/Unit/AVM/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Add.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Add.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Assert.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Assert.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Commands.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Commands.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/CommandsSet.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/CommandsSet.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Div.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Div.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Dump.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Dump.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Mod.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Mod.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Mul.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Mul.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Pop.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Pop.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Print.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Print.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Push.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Push.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Commands/Sub.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Commands/Sub.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/IOperand.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/Lexer.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/Lexer.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/OFactory.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/headers/TOperands.hpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/OperandType.h">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Add.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Assert.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Add.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Commands.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Assert.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Div.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Commands.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Dump.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Div.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Mod.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Dump.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Mul.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Mod.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Pop.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Mul.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Print.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Pop.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Push.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Print.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Commands/Sub.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Push.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/Lexer.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Commands/Sub.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/OFactory.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/Lexer.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/src/main.cpp">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/OFactory.cpp">
 			<Option target="AVM"/>
 		</Unit>
-		<Unit filename="/Users/ybohusev/abstarct/CMakeLists.txt">
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/src/main.cpp">
+			<Option target="AVM"/>
+		</Unit>
+		<Unit filename="/home/ybohusev/Programming/Unit/AVM/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

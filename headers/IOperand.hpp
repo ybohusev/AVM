@@ -13,15 +13,7 @@
 #ifndef ABSTRACTVM_IOPERAND_HPP
 # define ABSTRACTVM_IOPERAND_HPP
 # include <iostream>
-
-enum eOperandType
-{
-	Int8 = 0,
-	Int16,
-	Int32,
-	Float,
-	Double
-};
+#include "OperandType.h"
 
 class IOperand
 {

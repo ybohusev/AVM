@@ -38,4 +38,4 @@ add_executable(AVM
         #src/Parser.cpp
         headers/Lexer.hpp
         src/Lexer.cpp
-        headers/Commands/CommandsSet.hpp)
+        headers/Commands/CommandsSet.hpp headers/OperandType.h)

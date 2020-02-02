@@ -19,14 +19,32 @@
 #include <fstream>
 
 #include "Commands/CommandsSet.hpp"
+#include "OperandType.h"
+
+class LexicalError : public std::exception
+{
+public:
+    virtual const char *what() const noexcept = 0;
+};
+
+class SyntaxError : public std::exception
+{
+public:
+    virtual const char *what() const noexcept = 0;
+};
 
 class Lexer
 {
     static std::string errLine;
     std::vector<std::string> commands;
     std::ifstream fin;
+    bool isExit;
 
-    std::vector<std::string> splitString(std::string com, char delim);
+    void checkLex(std::string line);
+    eCommandType checkComLex(std::string& com);
+    static void checkOpTypeLex(std::string& OpType, eCommandType comType);
+    static std::vector<std::string> splitString(std::string& com, char delim);
+    static bool isNumber(std::string& st);
 public:
     Lexer();
     Lexer(Lexer const &obj);
@@ -35,21 +53,42 @@ public:
     std::vector<std::string> readFromFile(std::string const &filename);
     std::vector<std::string> readUserInput();
 
-    bool checkLex(std::string line);
-
     class FileOpenException : public std::exception
     {
     public:
         const char *what() const noexcept override;
     };
-
-    class NoExitException : public std::exception
+    class NoExitException : public SyntaxError
     {
     public:
         const char *what() const noexcept override;
     };
-
-    class WrongCommandException : public std::exception
+    class WrongCommandException : public LexicalError
+    {
+    public:
+        const char *what() const noexcept override;
+    };
+    class WrongOperandTypeException : public LexicalError
+    {
+    public:
+        const char *what() const noexcept override;
+    };
+    class commandSignException : public SyntaxError
+    {
+    public:
+        const char *what() const noexcept override;
+    };
+    class unexpectedSybmbolException : public SyntaxError
+    {
+    public:
+        const char *what() const noexcept override;
+    };
+    class missedBracketsException : public SyntaxError
+    {
+    public:
+        const char *what() const noexcept override;
+    };
+    class invalidArgumentException : public SyntaxError
     {
     public:
         const char *what() const noexcept override;
