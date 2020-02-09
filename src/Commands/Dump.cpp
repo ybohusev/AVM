@@ -12,30 +12,14 @@
 
 #include "../../headers/Commands/Dump.hpp"
 
-Dump::Dump()
-{
-}
-
-Dump::Dump(Dump const &obj)
-{
-	*this = obj;
-}
-
-Dump& Dump::operator=(Dump const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
 Dump::~Dump()
 {
 }
 
-void Dump::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Dump::doCommands(std::vector<IOperand const *> *v)
 {
-	if (v->size() == 0)
+	if (v->empty())
 		throw Commands::EmpyStackException();
-	for (int i = v->size() - 1; i >= 0; i--)
-		std::cout << v->at(i)->toString() << std::endl;
-	(void)line;
+	for (auto it = v->rbegin(); it < v->rend(); ++it)
+		std::cout << (*it)->toString() << std::endl;
 }

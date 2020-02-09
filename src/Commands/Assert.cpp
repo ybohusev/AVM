@@ -14,7 +14,12 @@
 
 Assert::Assert()
 {
-	initNameType();
+}
+
+Assert::Assert(const std::string& value_, eOperandType type_)
+{
+    value = value_;
+    type = type_;
 }
 
 Assert::Assert(Assert const &obj)
@@ -24,63 +29,27 @@ Assert::Assert(Assert const &obj)
 
 Assert& Assert::operator=(Assert const &obj)
 {
-	(void)obj;
-	return *this;
+	if (this == &obj)
+	    return *this;
+	this->value = obj.value;
+	this->type = obj.type;
+    return *this;
 }
 
 Assert::~Assert()
 {
 }
 
-void Assert::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Assert::doCommands(std::vector<IOperand const *> *v)
 {
-	std::string aux;
-	std::stringstream ss(line);
-	size_t i;
 
-	if (v->size() == 0)
+	if (v->empty())
 		throw Commands::EmpyStackException();
-	std::getline(ss, aux, ' ');
-	std::getline(ss, aux, '(');
-	if (aux.length() == 0)
-		throw Commands::WrongTypeException();
-	for (i = 0; i < nameType.size(); i++)
-	{
-		if (aux == nameType.at(i))
-		{
-			std::getline(ss, aux, ')');
-			if (aux.length() == 0)
-				throw Commands::WrongValueException();
-			if (std::stod(v->back()->toString()) == std::stod(aux) && v->back()->getType() == i)
-				break;
-			else
-				throw DifferentValueException();
-		}
-	}
-	if (i == nameType.size())
-		throw Commands::WrongTypeException();
+	if (std::stod(v->back()->toString()) != std::stod(value) || v->back()->getType() != type)
+	    throw DifferentValueException();
 }
 
-Assert::DifferentValueException::DifferentValueException()
-{
-}
-
-Assert::DifferentValueException::~DifferentValueException() throw()
-{
-}
-
-Assert::DifferentValueException::DifferentValueException(DifferentValueException const &obj)
-{
-	*this = obj;
-}
-
-Assert::DifferentValueException& Assert::DifferentValueException::operator=(DifferentValueException const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
-const char* Assert::DifferentValueException::what() const throw()
+const char* Assert::DifferentValueException::what() const noexcept
 {
 	return ("Exception: Different value or type !");
 }

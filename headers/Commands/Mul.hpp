@@ -18,11 +18,8 @@
 class Mul : public Commands
 {
 public:
-	Mul();
-	Mul(Mul const &obj);
-	~Mul();
-	Mul &operator=(Mul const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Mul();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 
 #endif

@@ -26,6 +26,7 @@ private:
 	eOperandType _type;
 	T _value;
 	OFactory *fact;
+	std::string const *str;
 
 
 public:
@@ -70,11 +71,12 @@ public:
 
 	virtual ~TOperands(void)
 	{
-
+		delete str;
 	}
 
 	TOperands(eOperandType type, T value) : _type(type), _value(value), fact(NULL)
 	{
+		str = new std::string(std::to_string(_value));
 	}
 
 	TOperands &operator=(TOperands const &obj)
@@ -165,7 +167,7 @@ public:
 
 	std::string const &toString(void) const
 	{
-		std::string const *str = new std::string(std::to_string(_value));
+		//std::string const *str = new std::string(std::to_string(_value));
 		return *str;
 	}
 

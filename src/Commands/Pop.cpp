@@ -12,29 +12,15 @@
 
 #include "../../headers/Commands/Pop.hpp"
 
-Pop::Pop()
-{
-}
-
-Pop::Pop(Pop const &obj)
-{
-	*this = obj;
-}
-
-Pop& Pop::operator=(Pop const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
 Pop::~Pop()
 {
 }
 
-void Pop::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Pop::doCommands(std::vector<IOperand const *> *v)
 {
-	if (v->size() == 0)
+	if (v->empty())
 		throw Commands::EmpyStackException();
+	IOperand const *tmp = v->back();
 	v->pop_back();
-	(void)line;
+	delete tmp;
 }

@@ -12,28 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a3b791d-2a92-4634-8cfc-d5a4c0f20843" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/headers/OperandType.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/AVM" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AVM" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/AVM.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AVM.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.out" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Add.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Add.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o" afterDir="false" />
@@ -48,36 +39,37 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Lexer.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/Lexer.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/OFactory.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/OFactory.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AVM.dir/src/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/10" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/11" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/12" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/14" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/example" beforeDir="false" afterPath="$PROJECT_DIR$/example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/IOperand.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/IOperand.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/headers/Lexer.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Lexer.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Add.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Add.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Assert.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Assert.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Commands.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Commands.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Div.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Div.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Dump.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Dump.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Mod.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Mod.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Mul.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Mul.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Pop.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Pop.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Print.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Print.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Push.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Push.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Commands/Sub.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Commands/Sub.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/OperandType.h" beforeDir="false" afterPath="$PROJECT_DIR$/headers/OperandType.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/Parser.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/Parser.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/headers/TOperands.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/headers/TOperands.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Add.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Add.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Assert.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Assert.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Commands.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Commands.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Div.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Div.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Dump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Dump.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Mod.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Mod.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Mul.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Mul.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Pop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Pop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Print.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Print.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Push.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Push.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Commands/Sub.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Commands/Sub.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lexer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +97,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="AVM" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AVM" TARGET_NAME="AVM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AVM" RUN_TARGET_NAME="AVM">
+    <configuration name="AVM" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS=" ../example" PASS_PARENT_ENVS_2="true" PROJECT_NAME="AVM" TARGET_NAME="AVM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="AVM" RUN_TARGET_NAME="AVM">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -137,30 +129,55 @@
       <workItem from="1580396407946" duration="6117000" />
       <workItem from="1580466267584" duration="3353000" />
       <workItem from="1580470085123" duration="5662000" />
+      <workItem from="1581241259895" duration="17686000" />
     </task>
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581253476226">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="418" y="198" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581253476226" />
+    <state x="723" y="244" key="#xdebugger.evaluate" timestamp="1581256016770">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="723" y="244" key="#xdebugger.evaluate/0.0.1920.1080@0.0.1920.1080" timestamp="1581256016770" />
     <state x="568" y="135" width="774" height="808" key="CommitChangelistDialog2" timestamp="1580203309320">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="568" y="135" width="774" height="808" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1580203309320" />
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1580143406640">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom" timestamp="1581257486152">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1580143406640" />
-    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1580143406639">
+    <state width="1874" height="287" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486152" />
+    <state width="1874" height="287" key="GridCell.Tab.0.center" timestamp="1581257486151">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1580143406639" />
-    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1580143406638">
+    <state width="1874" height="287" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486151" />
+    <state width="1874" height="287" key="GridCell.Tab.0.left" timestamp="1581257486150">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1580143406638" />
-    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1580143406639">
+    <state width="1874" height="287" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486150" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right" timestamp="1581257486151">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1874" height="287" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1580143406639" />
+    <state width="1874" height="287" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486151" />
+    <state width="1874" height="287" key="GridCell.Tab.1.bottom" timestamp="1581257486153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486153" />
+    <state width="1874" height="287" key="GridCell.Tab.1.center" timestamp="1581257486152">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486152" />
+    <state width="1874" height="287" key="GridCell.Tab.1.left" timestamp="1581257486152">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486152" />
+    <state width="1874" height="287" key="GridCell.Tab.1.right" timestamp="1581257486153">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="287" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581257486153" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1580471212149">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

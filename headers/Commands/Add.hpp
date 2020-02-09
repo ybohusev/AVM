@@ -18,11 +18,8 @@
 class Add : public Commands
 {
 public:
-	Add();
-	~Add();
-	Add(Add const &obj);
-	Add &operator=(Add const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Add();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 
 #endif

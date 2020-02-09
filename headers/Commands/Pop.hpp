@@ -18,11 +18,8 @@
 class Pop : public Commands
 {
 public:
-	Pop();
-	Pop(Pop const &obj);
-	~Pop();
-	Pop &operator=(Pop const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Pop();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 
 #endif

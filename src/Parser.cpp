@@ -15,7 +15,6 @@
 
 Parser::Parser()
 {
-	Parser::initCommands();
 }
 
 Parser::Parser(Parser const &obj)
@@ -31,120 +30,77 @@ Parser& Parser::operator=(Parser const &obj)
 
 Parser::~Parser()
 {
-
 }
 
-void Parser::initCommands()
+Commands* Parser::initCommands(eCommandType com, eOperandType arg, const std::string& value)
 {
-	commands.push_back(new Push());
-	commands.push_back(new Pop());
-	commands.push_back(new Dump());
-	commands.push_back(new Assert());
-	commands.push_back(new Add());
-	commands.push_back(new Sub());
-	commands.push_back(new Mul());
-	commands.push_back(new Div());
-	commands.push_back(new Mod());
-	commands.push_back(new Print());
+    Commands * tmp = nullptr;
 
-	nameCommands.push_back("push");
-	nameCommands.push_back("pop");
-	nameCommands.push_back("dump");
-	nameCommands.push_back("assert");
-	nameCommands.push_back("add");
-	nameCommands.push_back("sub");
-	nameCommands.push_back("mul");
-	nameCommands.push_back("div");
-	nameCommands.push_back("mod");
-	nameCommands.push_back("print");
-	nameCommands.push_back("exit");
+    switch (com)
+    {
+        case eCommandType::PUSH:
+            tmp = new Push(value, arg);
+            break;
+        case eCommandType::ADD:
+            tmp = new Add();
+            break;
+        case eCommandType::ASSERT:
+            tmp = new Assert(value, arg);
+            break;
+        case eCommandType::DIV:
+            tmp = new Div();
+            break;
+        case eCommandType::DUMP:
+            tmp = new Dump();
+            break;
+        case eCommandType::MOD:
+            tmp = new Mod();
+            break;
+        case eCommandType::MUL:
+            tmp = new Mul();
+            break;
+        case eCommandType::POP:
+            tmp = new Pop();
+            break;
+        case eCommandType::PRINT:
+            tmp = new Print();
+            break;
+        case eCommandType::SUB:
+            tmp = new Sub();
+            break;
+        case eCommandType::UNKNOWN:
+        case eCommandType::EXIT:
+            break;
+    };
+    return  tmp;
 }
 
-void Parser::pushComToStack(std::vector<Commands> &stackCommands, std::string line)
+void Parser::pushComToStack(const std::string& com)
 {
-	std::stringstream ss(line);
+	std::stringstream ss(com);
 	std::string aux;
-	size_t i;
+
 	std::getline(ss, aux, ' ');
 
-
-
-	line = line.substr(0, line.find_first_of(';'));
-	//line = line.substr(0, line.find_first_of(' '));
-    //std::cout << line << std::endl;
-    if (line.size())
-	{std::cout << line << std::endl;
-		for (i = 0; i < commands.size(); i++)
-		{
-			if (aux == nameCommands.at(i))
-			{
-				//commands.at(i)->doCommands(v, line);
-				break ;
-			}
-			else if (aux == "exit")
-				std::exit(0);
-		}
-		if (i == commands.size());
-			//throw WrongCommandException();
-	}
-}
-
-void Parser::checkExit(std::string const &line)
-{
-	size_t found;
-
-	found = line.find("exit");
-	if (found == std::string::npos)
-		throw NoExitException();
-}
-
-void Parser::readFromFile(std::string const &filename, std::vector<Commands> &stackCommands)
-{
-	std::string line;
-	std::ifstream fin(filename);
-
-
-    std::ifstream fin1(std::cin);
-	//std::ifstream fin1(filename);
-	//std::vector<IOperand const *> v;
-	if (!fin.is_open())
-	{
-		throw FileOpenException();
-	}
-	else
-	{
-		while (std::getline(fin, line))
-            pushComToStack(stackCommands, line);
-	}
-}
-
-void Parser::readUserInput()
-{
-	std::string line;
-	std::string userInput;
-	std::vector<IOperand const *> v;
-	std::string to;
-
-	while (std::getline(std::cin, line) && line != ";;")
-		userInput += line + "\n";
-	checkExit(userInput);
-	std::stringstream ss(userInput);
-	while(std::getline(ss, to, '\n'));
-        //pushComToStack(&v, to);
+    eCommandType comType = gCommandSet.find(aux)->second;
+    std::getline(ss, aux, '(');
+    if (!gOperandTypeSet.count(aux))
+        commands.push_back(initCommands(comType));
+    else
+    {
+        eOperandType type = gOperandTypeSet.find(aux)->second;
+        int argPos = com.find('(');
+        std::string arg = com.substr(argPos + 1, com.size() - argPos - 2);
+        commands.push_back(initCommands(comType, type, arg));
+    }
 
 }
 
-const char* Parser::FileOpenException::what() const noexcept
+std::vector<Commands *> Parser::parseCommands(std::vector<std::string> &comStrings)
 {
-	return ("File can't be opened!");
-}
-
-const char* Parser::NoExitException::what() const noexcept
-{
-	return ("Exception: No Exit command !");
-}
-
-const char* Parser::WrongCommandException::what() const noexcept
-{
-	return ("Exception: Wrong command !");
+    for (const auto & comString : comStrings)
+    {
+        pushComToStack(comString);
+    }
+    return commands;
 }

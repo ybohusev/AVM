@@ -18,20 +18,13 @@
 class Print : public Commands
 {
 public:
-	Print();
-	Print(Print const &obj);
-	~Print();
-	Print &operator=(Print const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Print();
+	void doCommands(std::vector<IOperand const *> *v);
 
 	class NotEightTypeException : public std::exception
 	{
 	public:
-		NotEightTypeException();
-		NotEightTypeException(NotEightTypeException const &obj);
-		~NotEightTypeException() throw();
-		NotEightTypeException &operator=(NotEightTypeException const &obj);
-		virtual const char *what() const throw();
+		virtual const char *what() const noexcept;
 	};
 };
 

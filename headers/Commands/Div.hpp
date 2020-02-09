@@ -18,11 +18,8 @@
 class Div : public Commands
 {
 public:
-	Div();
-	Div(Div const &obj);
-	~Div();
-	Div &operator=(Div const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Div();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 
 #endif

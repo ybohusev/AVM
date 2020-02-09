@@ -12,23 +12,9 @@
 
 #include "../../headers/Commands/Commands.hpp"
 
-Commands::Commands()
-{
-}
-
 Commands::~Commands()
 {
 }
-
-void Commands::initNameType()
-{
-	nameType.push_back("int8");
-	nameType.push_back("int16");
-	nameType.push_back("int32");
-	nameType.push_back("float");
-	nameType.push_back("double");
-}
-
 const char* Commands::WrongTypeException::what() const noexcept
 {
 	return ("Exception: Wrong type !");
@@ -38,7 +24,6 @@ const char* Commands::FewArgumentsException::what() const noexcept
 {
 	return ("Exception: Too few arguments !");
 }
-
 
 const char* Commands::EmpyStackException::what() const noexcept
 {

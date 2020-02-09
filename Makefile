@@ -25,7 +25,7 @@ DIR_H = headers
 SOURCES =
 
 SOURCES += main.cpp
-#SOURCES += Parser.cpp
+SOURCES += Parser.cpp
 SOURCES += OFactory.cpp
 SOURCES += Lexer.cpp
 SOURCES_C += Sub.cpp

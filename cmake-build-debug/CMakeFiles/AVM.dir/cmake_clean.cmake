@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o"
   "CMakeFiles/AVM.dir/src/Lexer.cpp.o"
   "CMakeFiles/AVM.dir/src/OFactory.cpp.o"
+  "CMakeFiles/AVM.dir/src/Parser.cpp.o"
   "CMakeFiles/AVM.dir/src/main.cpp.o"
 )
 

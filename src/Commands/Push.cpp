@@ -12,9 +12,14 @@
 
 #include "../../headers/Commands/Push.hpp"
 
+Push::~Push()
+{
+}
+
 Push::Push()
 {
-	initNameType();
+    type = UNKNOWN;
+    value = std::string();
 }
 
 Push::Push(Push const &obj)
@@ -24,43 +29,21 @@ Push::Push(Push const &obj)
 
 Push& Push::operator=(Push const &obj)
 {
-	(void)obj;
+    if (this == &obj)
+        return  *this;
+	this->value = obj.value;
+	this->type = obj.type;
 	return *this;
 }
 
-Push::~Push()
+Push::Push(const std::string& value_, eOperandType type_)
 {
+    value = value_;
+    type = type_;
 }
 
-Push::Push(std::string param)
-{
-
-}
-
-void Push::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Push::doCommands(std::vector<IOperand const *> *v)
 {
 	OFactory fact;
-	std::string aux;
-	std::stringstream ss(line);
-	size_t i;
-
-	if (line.find(')') == std::string::npos || line.find('(') ==  std::string::npos)
-		throw Commands::WrongValueException();
-	std::getline(ss, aux, ' ');
-	std::getline(ss, aux, '(');
-	if (aux.length() == 0)
-		throw Commands::WrongTypeException();
-	for (i = 0; i < nameType.size(); i++)
-	{
-		if (aux == nameType.at(i))
-		{
-			std::getline(ss, aux, ')');
-			if (aux.length() == 0)
-				throw Commands::WrongValueException();
-			v->push_back(fact.createOperand(eOperandType(i), aux));
-			break;
-		}
-	}
-	if (i == nameType.size())
-		throw Commands::WrongTypeException();
+	v->push_back(fact.createOperand(type, value));
 }

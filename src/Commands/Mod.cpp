@@ -12,26 +12,11 @@
 
 #include "../../headers/Commands/Mod.hpp"
 
-Mod::Mod()
-{
-}
-
-Mod::Mod(Mod const &obj)
-{
-	*this = obj;
-}
-
-Mod& Mod::operator=(Mod const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
 Mod::~Mod()
 {
 }
 
-void Mod::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Mod::doCommands(std::vector<IOperand const *> *v)
 {
 	if (v->size() < 2)
 		throw Commands::FewArgumentsException();
@@ -40,5 +25,6 @@ void Mod::doCommands(std::vector<IOperand const *> *v, std::string line)
 	IOperand const *num2 = v->back();
 	v->pop_back();
 	v->push_back((*num2) % (*num1));
-	(void)line;
+	delete num1;
+	delete num2;
 }

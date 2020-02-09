@@ -23,10 +23,10 @@ class Push : public Commands
 public:
 	Push();
 	Push(Push const &obj);
-    Push(std::string param);
+    Push(const std::string& value_, eOperandType type_);
 	~Push();
 	Push &operator=(Push const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+	void doCommands(std::vector<IOperand const *> *v);
 };
 
 #endif

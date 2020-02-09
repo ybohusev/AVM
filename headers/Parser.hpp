@@ -17,6 +17,7 @@
 #include <sstream>
 #include <vector>
 #include <fstream>
+#include "Commands/CommandsSet.hpp"
 #include "Commands/Commands.hpp"
 #include "../headers/Commands/Push.hpp"
 #include "../headers/Commands/Pop.hpp"
@@ -33,36 +34,15 @@ class Parser
 {
 private:
 	std::vector<Commands *> commands;
-	std::vector<std::string> nameCommands;
 
 public:
 	Parser();
 	Parser(Parser const &obj);
 	~Parser();
 	Parser &operator=(Parser const &obj);
-	void readFromFile(std::string const &filename, std::vector<Commands> &stackCommands);
-	void readUserInput();
-	void initCommands();
-	void pushComToStack(std::vector<Commands> &stackCommands, std::string line);
-	void checkExit(std::string const &filename);
-
-class FileOpenException : public std::exception
-	{
-	public:
-		const char *what() const noexcept override;
-	};
-
-	class NoExitException : public std::exception
-	{
-	public:
-		const char *what() const noexcept override;
-	};
-
-	class WrongCommandException : public std::exception
-	{
-	public:
-		const char *what() const noexcept override;
-	};
+    std::vector<Commands *> parseCommands(std::vector<std::string> &comStrings);
+	static Commands* initCommands(eCommandType com, eOperandType arg=UNKNOWN, const std::string& value=std::string());
+	void pushComToStack(const std::string& com);
 };
 
 #endif

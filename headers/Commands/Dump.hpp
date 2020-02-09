@@ -18,10 +18,7 @@
 class Dump : public Commands
 {
 public:
-	Dump();
-	Dump(Dump const &obj);
-	~Dump();
-	Dump &operator=(Dump const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Dump();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 #endif

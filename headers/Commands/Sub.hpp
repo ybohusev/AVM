@@ -18,10 +18,7 @@
 class Sub : public Commands
 {
 public:
-	Sub();
-	Sub(Sub const &obj);
-	~Sub();
-	Sub &operator=(Sub const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Sub();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 #endif

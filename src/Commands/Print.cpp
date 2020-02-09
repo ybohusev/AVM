@@ -12,28 +12,13 @@
 
 #include "../../headers/Commands/Print.hpp"
 
-Print::Print()
-{
-}
-
-Print::Print(Print const &obj)
-{
-	*this = obj;
-}
-
-Print& Print::operator=(Print const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
 Print::~Print()
 {
 }
 
-void Print::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Print::doCommands(std::vector<IOperand const *> *v)
 {
-	if (v->size() == 0)
+	if (v->empty())
 		throw Commands::EmpyStackException();
 	if (v->back()->getType() == 0)
 	{
@@ -44,29 +29,9 @@ void Print::doCommands(std::vector<IOperand const *> *v, std::string line)
 	}
 	else
 		throw NotEightTypeException();
-	(void)line;
 }
 
-Print::NotEightTypeException::NotEightTypeException()
-{
-}
-
-Print::NotEightTypeException::~NotEightTypeException() throw()
-{
-}
-
-Print::NotEightTypeException::NotEightTypeException(NotEightTypeException const &obj)
-{
-	*this = obj;
-}
-
-Print::NotEightTypeException& Print::NotEightTypeException::operator=(NotEightTypeException const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
-const char* Print::NotEightTypeException::what() const throw()
+const char* Print::NotEightTypeException::what() const noexcept
 {
 	return ("Exception: Invalid type (value at the top of the stack is not 8 bit integer) !");
 }

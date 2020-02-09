@@ -12,26 +12,11 @@
 
 #include "../../headers/Commands/Sub.hpp"
 
-Sub::Sub()
-{
-}
-
-Sub::Sub(Sub const &obj)
-{
-	*this = obj;
-}
-
-Sub& Sub::operator=(Sub const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
 Sub::~Sub()
 {
 }
 
-void Sub::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Sub::doCommands(std::vector<IOperand const *> *v)
 {
 	if (v->size() < 2)
 		throw Commands::FewArgumentsException();
@@ -40,5 +25,6 @@ void Sub::doCommands(std::vector<IOperand const *> *v, std::string line)
 	IOperand const *num2 = v->back();
 	v->pop_back();
 	v->push_back((*num1) - (*num2));
-	(void)line;
+    delete num1;
+    delete num2;
 }

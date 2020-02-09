@@ -36,7 +36,6 @@ Lexer::~Lexer()
 {
     if (fin.is_open())
         fin.close();
-    //std::cout << "Lexer destructor" << std::endl;
 }
 
 bool Lexer::isNumber(std::string& st)

@@ -9,7 +9,7 @@
 
 enum eOperandType
 {
-    UNKNOWN = 0,
+    UNKNOWN = -1,
     Int8,
     Int16,
     Int32,

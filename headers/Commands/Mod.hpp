@@ -18,11 +18,8 @@
 class Mod : public Commands
 {
 public:
-	Mod();
-	Mod(Mod const &obj);
-	~Mod();
-	Mod &operator=(Mod const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+    ~Mod();
+	void doCommands(std::vector<IOperand const *> *v);
 };
 
 #endif

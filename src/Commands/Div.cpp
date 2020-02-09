@@ -12,26 +12,11 @@
 
 #include "../../headers/Commands/Div.hpp"
 
-Div::Div()
-{
-}
-
-Div::Div(Div const &obj)
-{
-	*this = obj;
-}
-
-Div& Div::operator=(Div const &obj)
-{
-	(void)obj;
-	return *this;
-}
-
 Div::~Div()
 {
 }
 
-void Div::doCommands(std::vector<IOperand const *> *v, std::string line)
+void Div::doCommands(std::vector<IOperand const *> *v)
 {
 	if (v->size() < 2)
 		throw Commands::FewArgumentsException();
@@ -40,5 +25,6 @@ void Div::doCommands(std::vector<IOperand const *> *v, std::string line)
 	IOperand const *num2 = v->back();
 	v->pop_back();
 	v->push_back((*num2) / (*num1));
-	(void)line;
+	delete num1;
+	delete num2;
 }

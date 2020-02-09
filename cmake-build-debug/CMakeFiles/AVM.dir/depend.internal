@@ -6,6 +6,7 @@ CMakeFiles/AVM.dir/src/Commands/Add.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Commands.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Add.cpp
 CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o
@@ -13,12 +14,14 @@ CMakeFiles/AVM.dir/src/Commands/Assert.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Commands.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Assert.cpp
 CMakeFiles/AVM.dir/src/Commands/Commands.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Commands.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Commands.cpp
 CMakeFiles/AVM.dir/src/Commands/Div.cpp.o
@@ -26,6 +29,7 @@ CMakeFiles/AVM.dir/src/Commands/Div.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Div.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Div.cpp
 CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o
@@ -33,6 +37,7 @@ CMakeFiles/AVM.dir/src/Commands/Dump.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Dump.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Dump.cpp
 CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o
@@ -40,6 +45,7 @@ CMakeFiles/AVM.dir/src/Commands/Mod.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Mod.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Mod.cpp
 CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o
@@ -47,6 +53,7 @@ CMakeFiles/AVM.dir/src/Commands/Mul.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Mul.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Mul.cpp
 CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o
@@ -54,6 +61,7 @@ CMakeFiles/AVM.dir/src/Commands/Pop.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Pop.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Pop.cpp
 CMakeFiles/AVM.dir/src/Commands/Print.cpp.o
@@ -61,6 +69,7 @@ CMakeFiles/AVM.dir/src/Commands/Print.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Print.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Print.cpp
 CMakeFiles/AVM.dir/src/Commands/Push.cpp.o
@@ -68,6 +77,7 @@ CMakeFiles/AVM.dir/src/Commands/Push.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Push.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Push.cpp
 CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o
@@ -75,17 +85,39 @@ CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/Sub.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/Commands/Sub.cpp
 CMakeFiles/AVM.dir/src/Lexer.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/Commands/CommandsSet.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/Lexer.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/src/Lexer.cpp
 CMakeFiles/AVM.dir/src/OFactory.cpp.o
  /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
  /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
  /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/OFactory.cpp
+CMakeFiles/AVM.dir/src/Parser.cpp.o
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Add.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Assert.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Commands.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/CommandsSet.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Div.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Dump.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Mod.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Mul.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Pop.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Print.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Push.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/Commands/Sub.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/IOperand.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OFactory.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/OperandType.h
+ /home/ybohusev/Programming/Unit/AVM/headers/Parser.hpp
+ /home/ybohusev/Programming/Unit/AVM/headers/TOperands.hpp
+ /home/ybohusev/Programming/Unit/AVM/src/Parser.cpp
 CMakeFiles/AVM.dir/src/main.cpp.o
  ../headers/Commands/Add.hpp
  ../headers/Commands/Assert.hpp
@@ -102,6 +134,7 @@ CMakeFiles/AVM.dir/src/main.cpp.o
  ../headers/IOperand.hpp
  ../headers/Lexer.hpp
  ../headers/OFactory.hpp
+ ../headers/OperandType.h
  ../headers/Parser.hpp
  ../headers/TOperands.hpp
  /home/ybohusev/Programming/Unit/AVM/src/main.cpp

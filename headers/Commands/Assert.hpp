@@ -17,20 +17,20 @@
 
 class Assert : public Commands
 {
+    eOperandType type;
+    std::string value;
 public:
 	Assert();
+	Assert(const std::string& value_, eOperandType type_);
 	Assert(Assert const &obj);
 	~Assert();
 	Assert &operator=(Assert const &obj);
-	void doCommands(std::vector<IOperand const *> *v, std::string line);
+	void doCommands(std::vector<IOperand const *> *v);
+
 	class DifferentValueException : public std::exception
 	{
 	public:
-		DifferentValueException();
-		DifferentValueException(DifferentValueException const &obj);
-		~DifferentValueException() throw();
-		DifferentValueException &operator=(DifferentValueException const &obj);
-		virtual const char *what() const throw();
+        const char *what() const noexcept override;
 	};
 };
 

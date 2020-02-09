@@ -17,6 +17,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/ybohusev/Programming/Unit/AVM/src/Commands/Sub.cpp" "/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/CMakeFiles/AVM.dir/src/Commands/Sub.cpp.o"
   "/home/ybohusev/Programming/Unit/AVM/src/Lexer.cpp" "/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/CMakeFiles/AVM.dir/src/Lexer.cpp.o"
   "/home/ybohusev/Programming/Unit/AVM/src/OFactory.cpp" "/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/CMakeFiles/AVM.dir/src/OFactory.cpp.o"
+  "/home/ybohusev/Programming/Unit/AVM/src/Parser.cpp" "/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/CMakeFiles/AVM.dir/src/Parser.cpp.o"
   "/home/ybohusev/Programming/Unit/AVM/src/main.cpp" "/home/ybohusev/Programming/Unit/AVM/cmake-build-debug/CMakeFiles/AVM.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
